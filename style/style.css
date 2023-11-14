@@ -1,0 +1,70 @@
+.color1 {background-color: #8E1E2B;}
+.color2 {background-color: #FAF8ED;}
+.color3 {background-color: #561922;}
+.color4 {background-color: #D83F31;}
+
+header {
+    display: flex;
+}
+
+.container{
+    justify-content: center;
+    margin-left: 12%
+}
+
+@media (max-width: 768px) {
+    h5 {
+        font-size: 16px; color: dimgray
+    }
+    
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (min-width: 769px) {
+    h5 {
+        font-size: 20px; color: dimgray
+    }
+}
+.sec1 {float: none; margin: center;}
+
+
+h6 {font-size: 24px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px; color: snow
+    }
+}
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 72px; color: snow
+    }
+}
+  
+@media (max-width: 768px) {
+    h2 {
+        font-size: 34px; color: black
+    }
+}
+
+@media (min-width: 769px) {
+    h2 {
+        font-size: 70px; color: dimgray
+    }
+}
+
+@media (max-width: 768px) {
+    h6 {
+        font-size: 16px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+    }
+}
+
+@media (min-width: 769px) {
+    h6 {
+        font-size: 24px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+    }
+}
