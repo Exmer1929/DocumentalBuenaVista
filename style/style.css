@@ -59,12 +59,25 @@ h6 {font-size: 24px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10
 
 @media (max-width: 768px) {
     h6 {
-        font-size: 16px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+        font-size: 22px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
     }
 }
 
 @media (min-width: 769px) {
     h6 {
-        font-size: 24px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+        font-size: 30px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 12px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
+    }
+}
+
+@media (min-width: 769px) {
+    h3 {
+        font-size: 18px; color: dimgrey; font-family: Lucida Fax; padding-bottom: 10px; text-align: justify;
     }
 }
